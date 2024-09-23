@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header {
+    background-color: #FD9317;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+    img {
+        width: 10%;
+        margin: 20px;
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+        width: 70vw;
+
+        li {
+            margin: 60px;
+        }
+
+    }
+   
+} 
+
+figure{
+    img{
+        width: 20vw;
+    }
+    
+}
+main{
+   background-color: #75442C; 
+   display: flex;
+   flex-direction: column;
+   height: 90vh;
+   justify-content: center;
+   align-items: center;
+}
